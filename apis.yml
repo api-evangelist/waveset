@@ -1,8 +1,24 @@
 aid: waveset
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waveset.png
 name: Waveset
-description: Waveset is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Waveset Technologies was a privately held identity-management software vendor based in
+  Austin, Texas, and an early portfolio company of Lightspeed Venture Partners. Its flagship product,
+  Lighthouse, automated user provisioning, password management, and identity brokering to govern access
+  to enterprise systems and data. Sun Microsystems announced its acquisition of Waveset in 2003 and
+  completed it in December 2003; the Lighthouse technology became the basis of Sun Identity Manager and
+  was later carried into Oracle's identity portfolio. Waveset has not existed as an independent company
+  since the acquisition and publishes no active website, developer portal, or API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/waveset/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,27 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Sun Microsystems
+x-acquired-year: '2003'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Identity Management
+- Provisioning
+- Security
+- Enterprise Software
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
